@@ -13,7 +13,7 @@ library(multcompView)
 # -----------------------------
 # 2. Load data
 # -----------------------------
-file_path <- "C:/Users/gaute/OneDrive/Dokumenter/Postdoc 2026-2029/Targeted SCFA/Mice Norway.csv"
+file_path <- "your_path.csv"
 data <- read.csv(file_path)
 
 # -----------------------------
