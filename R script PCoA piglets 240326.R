@@ -8,7 +8,7 @@ library(grid)
 # ------------------------------
 # 1. Load your data
 # ------------------------------
-data_path <- "C:/Users/gaute/OneDrive/Dokumenter/Postdoc 2026-2029/Targeted SCFA/Piglets.csv"
+data_path <- "your_path.csv"
 df <- read.csv(data_path, header = TRUE, check.names = FALSE, row.names = 1)
 
 # Separate metadata and metabolites
